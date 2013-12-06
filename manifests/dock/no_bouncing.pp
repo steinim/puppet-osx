@@ -1,5 +1,5 @@
 # Public: Disables the dock by setting a long autohide-delay
-class osx::dock::no-bouncing {
+class osx::dock::no_bouncing {
   include osx::dock
 
   boxen::osx_defaults { 'Prevent bouncing applications in dock':
