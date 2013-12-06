@@ -7,7 +7,7 @@ class osx::dock::no_bouncing {
     key    => 'no-bouncing',
     type   => 'bool',
     domain => 'com.apple.dock',
-    value  => 'true',
+    value  => true,
     notify => Exec['killall Dock'];
   }
 }
