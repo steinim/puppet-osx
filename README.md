@@ -37,7 +37,7 @@ Just `include` any of these in your manifest.
 * `osx::dock::dim_hidden_apps` - dims icons of hidden apps
 * `osx::dock::hide_indicator_lights` - remove the indicator lights below running
   apps
-* osx::dock::no-bouncing - disable bouncing applications in the dock
+* osx::dock::no_bouncing - disable bouncing applications in the dock
 
 ### Finder Settings
 
